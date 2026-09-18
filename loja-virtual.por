@@ -165,6 +165,12 @@ programa {
                     escreva("\nPressione ENTER para voltar ao menu...")
                     leia(tecla_pausa)
                     pare
+ 
+                        caso 4:
+                    limpa()
+                    escreva("--- REMOVER ITEM DO CARRINHO ---\n")
+                    escreva("1. Camisa Esportiva (No carrinho: ", qtd_carrinho_prod1, ")")
+                    escreva("2. Boné Casual (No carrinho: ", qtd_carrinho_prod2, ")")
 
 
 
