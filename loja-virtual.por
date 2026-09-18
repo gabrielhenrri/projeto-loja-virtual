@@ -181,6 +181,11 @@ programa {
                     {
                         estoque_prod1 = estoque_prod1 + qtd_carrinho_prod1
                         qtd_carrinho_prod1 = 0
+                             escreva("Camisa Esportiva removida do carrinho!")
+                    }
+                    senao se (opcao_crud == 2)
+                    {
+                        estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
 
 
 
