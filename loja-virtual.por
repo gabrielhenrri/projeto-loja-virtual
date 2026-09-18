@@ -175,6 +175,13 @@ programa {
 
                     escreva("\nEscolha o item que deseja remover totalmente: ")
 
+                              leia(opcao_crud)
+
+                    se (opcao_crud == 1)
+                    {
+                        estoque_prod1 = estoque_prod1 + qtd_carrinho_prod1
+                        qtd_carrinho_prod1 = 0
+
 
 
 
