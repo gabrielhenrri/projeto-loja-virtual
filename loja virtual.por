@@ -312,6 +312,12 @@ senao
       valor_final = valor_total_bruto
   }
 
+ limpa()
+        escreva("=========================\n")
+        escreva("  NOTA FISCAL - LOJA VIRTUAL\n")
+        escreva("=========================\n")
+        escreva("Itens comprados:\n")
+
 
   }
 }
