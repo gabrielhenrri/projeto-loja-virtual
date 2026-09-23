@@ -306,5 +306,12 @@ senao se (opcao_pagamento == 2)
         valor_final = valor_total_bruto
     }
 
+senao
+  {
+      escreva("Opção inválida! Processando valor normal.")
+      valor_final = valor_total_bruto
+  }
+
+
   }
 }
