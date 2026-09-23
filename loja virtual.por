@@ -318,6 +318,9 @@ senao
         escreva("=========================\n")
         escreva("Itens comprados:\n")
 
+   se (qtd_carrinho_prod1 > 0)
+        {
+            escreva("- ", qtd_carrinho_prod1, "x Camisa Esportiva = R$ ", (qtd_carrinho_prod1 * preco_prod1), "\n")
 
   }
 }
