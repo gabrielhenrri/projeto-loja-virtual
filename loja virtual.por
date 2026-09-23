@@ -300,5 +300,11 @@ limpa()
   valor_final = valor_total_bruto - valor_desconto
         }
 
+senao se (opcao_pagamento == 2)
+    {
+        valor_desconto = 0.0
+        valor_final = valor_total_bruto
+    }
+
   }
 }
