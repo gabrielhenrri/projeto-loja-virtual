@@ -295,5 +295,10 @@ limpa()
 
         se (opcao_pagamento == 1)
 
+ {
+  valor_desconto = valor_total_bruto * 0.10
+  valor_final = valor_total_bruto - valor_desconto
+        }
+
   }
 }
