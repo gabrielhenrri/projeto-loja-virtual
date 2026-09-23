@@ -279,5 +279,11 @@ escreva("\nEscolha o item que deseja remover totalmente: ")
           escreva("Opção inválida!")
       }
 
+ escreva("\nPressione ENTER para voltar ao menu...")
+                    leia(tecla_pausa)
+                    pare
+            }
+        }
+
   }
 }
