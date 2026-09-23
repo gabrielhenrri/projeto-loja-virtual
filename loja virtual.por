@@ -1,6 +1,5 @@
 programa {
   funcao inicio() {
-      
     inteiro opcao_menu_principal = -1
     inteiro opcao_crud = -1
     inteiro quantidade_temp = 0
@@ -261,6 +260,14 @@ escreva("\nEscolha o item que deseja remover totalmente: ")
               estoque_prod1 = estoque_prod1 + qtd_carrinho_prod1
               qtd_carrinho_prod1 = 0
               escreva("Camisa Esportiva removida do carrinho!")
+
+  }
+      senao se (opcao_crud == 2)
+      {
+          estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
+          qtd_carrinho_prod2 = 0
+          escreva("Boné Casual removido do carrinho!")
+      }
 
   }
 }
