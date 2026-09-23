@@ -269,5 +269,15 @@ escreva("\nEscolha o item que deseja remover totalmente: ")
           escreva("Boné Casual removido do carrinho!")
       }
 
+ senao se (opcao_crud == 3)
+      {
+          estoque_prod3 = estoque_prod3 + qtd_carrinho_prod3
+          qtd_carrinho_prod3 = 0
+          escreva("Tênis de Corrida removido do carrinho!")
+      }
+      senao {
+          escreva("Opção inválida!")
+      }
+
   }
 }
