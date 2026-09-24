@@ -251,6 +251,6 @@ programa {
  }
   se (qtd_carrinho_prod3 > 0)
   {
-
+  escreva("- ", qtd_carrinho_prod3, "x Tênis de Corrida = R$ ", (qtd_carrinho_prod3 * preco_prod3), "\n")
   }
 }
