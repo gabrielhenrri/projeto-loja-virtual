@@ -252,5 +252,13 @@ programa {
   se (qtd_carrinho_prod3 > 0)
   {
   escreva("- ", qtd_carrinho_prod3, "x Tênis de Corrida = R$ ", (qtd_carrinho_prod3 * preco_prod3), "\n")
+  
+escreva("---------------------------\n")
+    escreva("Valor total bruto: R$ ", valor_total_bruto, "\n")
+    escreva("Desconto aplicado: R$ ", valor_desconto, "\n")
+    escreva("Valor final a pagar: R$ ", valor_final, "\n")
+    escreva("---------------------------\n")
+    escreva("Obrigado por comprar conosco!\n")
+
   }
 }
