@@ -248,6 +248,9 @@ programa {
   se (qtd_carrinho_prod2 > 0)
  {
   escreva("- ", qtd_carrinho_prod2, "x Boné Casual = R$ ", (qtd_carrinho_prod2 * preco_prod2), "\n")
+ }
+  se (qtd_carrinho_prod3 > 0)
+  {
 
   }
 }
