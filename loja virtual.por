@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro opcao_menu_principal = -1
+     inteiro opcao_menu_principal = -1
 inteiro opcao_crud = -1
 inteiro opcao_pagamento = -1
 cadeia tecla_pausa = ""
