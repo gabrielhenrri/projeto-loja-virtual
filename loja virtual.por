@@ -180,8 +180,7 @@ senao se (opcao_crud == 2)
   }
   escreva("\nPressione ENTER para voltar ao menu...")
   leia(tecla_pausa)
-  pare
-  pare
+
 
 caso 4:
   limpa()
@@ -216,8 +215,7 @@ caso 4:
     }
     escreva("\nPressione ENTER para voltar ao menu...")
     leia(tecla_pausa)
-    pare
-    pare
+   
   }
 
   // ====================== PAGAMENTO ======================
